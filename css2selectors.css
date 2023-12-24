@@ -1,0 +1,37 @@
+/* The universal selector: takes fonts, background, and all default setting for the entire website */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+
+/* element selectors: all work for elements and can be grouped */
+
+h2{
+    color: blue;
+}
+
+/* grouping */
+
+h1, p{
+    color: green;
+}
+
+/* nexting elements */
+
+main p{
+    font-size: 23px;
+    font-style: italic;
+}
+
+/* class selectors: more specific compare to element selector */
+
+.span{
+    color: greenyellow;
+}
+
+/* Id selector: more specific than class selectors */
+
+#span{
+    color: red;
+}
