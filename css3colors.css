@@ -1,0 +1,20 @@
+/* Colors: background and background:colors */
+
+*{
+    background-color: green;
+}
+
+main{
+    background: red;
+}
+
+p{
+    color: #333;
+}
+
+/* Color tools: very essentials: name, hsl, rgb */
+
+/* 
+coolors.co
+webAim contrast checker
+*/
